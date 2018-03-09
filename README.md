@@ -1,4 +1,4 @@
-Spelling corrector in Java that supports the following functions. Send over the executable jar that takes input from a command line.
+Spelling corrector in Java that supports the following functions.
 
 * One letter edits:
     * a) deletion (remove one letter),
@@ -18,12 +18,6 @@ Test cases:
 7. 'peotryy' ->'poetry'                
 8. 'word'-> 'word'      no correction
 9. 'quintessential' -> 'quintessential' ß if the word is not found in the dictionary, the program would return the original
-
- 
-
-Please include the dictionary along with the problem: 
-(Unfortunately this link is not operational)
-https://sp.jpmchase.net/sites/spmccxfj/Shared%20Documents/Sandboni/dictionary.zip
 
 The build will generate 2 jars. To run please one of the below. To avoid potential hassle of putting all relevant jars
  on the class path please use jar with dependencies.
